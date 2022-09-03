@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+
+    --font1: 'Poppins', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbf6ff;
+}
+
+.limite-container {
+    max-width: 100%;
+}
+
+header {
+    background-color: #290742;
+    padding: 20px;
+    color: #fff;
+}
+
+button {
+    background-color: #9e6dc2;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+input {
+    width: 300px;
+    height: 49px;
+    padding: 10px;
+    border: none;
+    background-color: #170027;
+}
+
+/* HEADER */
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    max-width: 1140px;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu ul,
+.menu li,
+.menu a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+
+    padding: 25px;
+    align-items: center;
+    font-size: 1em;
+
+}
+
+.menu li a:hover {
+    width: 48px;
+    border-left: 3px solid #4fff4b;
+}
+
+/* section-initial */
+.section-initial {
+    background-color: var(--purple-bg);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-initial h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: var(--button-bg);
+
+    width: 569px;
+    height: 162px;
+}
+
+.section-initial p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--light-purple);
+
+    margin-top: 30px;
+    margin-bottom: 25px;
+    width: 469px;
+    height: 82px;
+}
+
+.section-initial a {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+
+    color: #9E6DC2;
+
+}
+
+span {
+    border-bottom: 1px solid #F2E7FA;
+    margin-bottom: 20px;
+}
+
+/* section-noticias-left */
+.section-noticias {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.section-noticias-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-noticias-left {
+    display: flex;
+    margin-right: 70px;
+    flex-direction: column;
+}
+
+.section-noticias-left img {
+    width: 569px;
+    height: 342.43px;
+    left: 136px;
+    top: 652px;
+
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.section-noticias-left time,
+.section-noticias-right time {
+    width: 183px;
+    height: 18px;
+    margin-top: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.section-noticias-left h2,
+.section-noticias-right h2 {
+    width: 569px;
+    height: 36px;
+
+    color: var(--purple-bg);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.section-noticias-left p,
+.section-noticias-right p {
+    width: 569px;
+    height: 100px;
+    margin-top: 20px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section-posts {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 20px;
+    padding: 0px;
+    gap: 8px;
+}
+
+
+
+.section-posts time {
+    width: 119px;
+    height: 19px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.section-posts h2 {
+    width: 370px;
+    height: 72px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+
+    color: #290742;
+
+
+}
+
+.section-posts p {
+    width: 370px;
+    height: 76px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #000000;
+
+
+}
